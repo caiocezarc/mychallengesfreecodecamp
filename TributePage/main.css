@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: rgb(63, 63, 63);
+    background-color: rgb(248, 207, 207);
+}
+
+#main{
+    text-align: center;
+    background-color: rgb(238, 236, 236);
+    margin: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+#main h1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 36px;
+    color: rgb(63, 63, 63);
+}
+
+#main p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+#main #img-div{
+    background-color: #FFF;
+    padding: 40px 40px 0px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.3);
+    text-align: center;
+}
+#main #img-div #image {    
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+#main #img-div #image:hover {
+    border: solid 8px rgb(236, 236, 236);
+}
+
+#main #img-div #img-caption {
+    padding: 20px 0px;
+}
+
+#main #tribute-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: auto;
+    margin: 0 auto;
+}
+
+#main #tribute-info div {
+    margin: 50px 0px;
+}
+
+#main #tribute-info div ul {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    list-style: none;
+}
+
+#main #tribute-info div li {
+    line-height: 24px;
+    padding: 15px 0px;
+}
+
+
+#main #tribute-info div h3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#main #tribute-info div h3 a {
+    color: rgb(240, 132, 204);
+    margin-left: 5px;
+}
+
+
+
+
